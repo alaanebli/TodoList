@@ -1,0 +1,85 @@
+
+.container{
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 40% ;
+    background-color:cadetblue;
+}
+.connectedSortable{
+    min-width: 250px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(89, 85, 85, 0.164);
+}
+.connectedSortable > h2{
+    text-align: center;
+}
+.boxHolder{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.Box{
+    display: flex;
+    flex-direction: row ; 
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 0px;  
+    color:rgb(7, 7, 7); 
+    box-shadow: 2px 5px 10px rgba(41, 41, 41, 0.035);
+    margin: 10px;
+
+}
+
+.inputContainer{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#inputBox{
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    box-shadow: 2px 5px 10px rgba(89, 85, 85, 0.164);
+    background-color: transparent;
+    border: 0px;  
+    color:black; 
+    margin-right: 20px;
+
+}
+#addBtn{
+    border-radius: 24px;
+    box-shadow: 2px 5px 10px rgba(89, 85, 85, 0.164);
+    background-color: transparent;
+    border: 0px;  
+    color:black;
+}
+.removebtn{
+    border-radius: 24px;
+    background-color: transparent;
+    border: 0px;  
+    color:black;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Todo List",
+  "short_name": "TodoList",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "red",
+  "background_color":"green",
+  "icons": [
+    {
+      "src": "/Artboard.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+}
